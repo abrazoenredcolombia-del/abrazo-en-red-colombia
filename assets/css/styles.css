@@ -301,6 +301,19 @@ li { list-style: none; }
 .step h3 { font-size: 1.14rem; margin-bottom: 8px; }
 .step p { color: var(--ink-soft); font-size: .96rem; }
 
+/* Nota de convivencia: petición amable, no advertencia.
+   Por eso va en el verde de la marca y no en tono de alerta. */
+.note {
+  display: flex; align-items: flex-start; gap: 13px;
+  max-width: 64ch; margin: 30px auto 0;
+  padding: 17px 20px; border-radius: var(--r-md);
+  background: var(--primary-soft); border: 1px solid #CBE3DD;
+  color: var(--primary-dark); font-size: .95rem; line-height: 1.55;
+  text-align: left; text-wrap: pretty;
+}
+.note svg { width: 20px; height: 20px; flex: none; margin-top: 3px; }
+.note strong { font-weight: 700; }
+
 /* --- Tarjetas de facilitadores -------------------------------------------- */
 /* Rejilla de columnas explícitas en flex: todas las tarjetas miden exactamente
    lo mismo y la última fila incompleta queda centrada (grid la dejaría a la izquierda). */
