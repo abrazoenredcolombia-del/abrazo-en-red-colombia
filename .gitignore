@@ -1,0 +1,16 @@
+# Fotos originales: pesan ~25 MB y contienen imágenes de personas que NO están
+# publicadas en la web. Se quedan solo en tu disco; el sitio usa assets/img/*.webp.
+fotos/
+
+# Sistema operativo
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*~
